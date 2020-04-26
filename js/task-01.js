@@ -2,7 +2,7 @@ console.log('================== task 1 =============================');
 
 const logItems = function (array) {
   for (let i = 0; i < array.length; i++) {
-    let result = `[${array.indexOf(array[i]) + 1}] - [${array[i]}]`;
+    let result = `[${[i]}] - [${array[i]}]`;
     console.log(result);
   }
 };

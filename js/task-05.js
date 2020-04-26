@@ -3,9 +3,7 @@ console.log('================== task 5 =============================');
 const checkForSpam = function (string) {
   let downStr = string.toLowerCase();
 
-  if (downStr.includes('sale')) {
-    return true;
-  } else if (downStr.includes('spam')) {
+  if (downStr.includes('sale') || downStr.includes('spam')) {
     return true;
   } else {
     return false;
